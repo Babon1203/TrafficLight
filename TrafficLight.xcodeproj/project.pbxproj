@@ -11,6 +11,7 @@
 		B3D628052B2A08B900BD18B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D628042B2A08B900BD18B1 /* ContentView.swift */; };
 		B3D628072B2A08BB00BD18B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D628062B2A08BB00BD18B1 /* Assets.xcassets */; };
 		B3D6280A2B2A08BB00BD18B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D628092B2A08BB00BD18B1 /* Preview Assets.xcassets */; };
+		B3D628112B2A093B00BD18B1 /* TrafficColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D628102B2A093B00BD18B1 /* TrafficColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B3D628042B2A08B900BD18B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3D628062B2A08BB00BD18B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3D628092B2A08BB00BD18B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3D628102B2A093B00BD18B1 /* TrafficColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				B3D628022B2A08B900BD18B1 /* TrafficLightApp.swift */,
 				B3D628042B2A08B900BD18B1 /* ContentView.swift */,
+				B3D628102B2A093B00BD18B1 /* TrafficColors.swift */,
 				B3D628062B2A08BB00BD18B1 /* Assets.xcassets */,
 				B3D628082B2A08BB00BD18B1 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3D628052B2A08B900BD18B1 /* ContentView.swift in Sources */,
+				B3D628112B2A093B00BD18B1 /* TrafficColors.swift in Sources */,
 				B3D628032B2A08B900BD18B1 /* TrafficLightApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,9 +290,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.TrafficLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,9 +321,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.TrafficLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
